@@ -25,4 +25,4 @@ Feature: Rick and Morty
     Then se obtuvo el response esperado en <entity> con el <jsonNameResponse>
     Examples:
       | jsonName         | statusCode | inputParamiters | operation | entity | jsonNameResponse     |
-      | RyM\rc_character | 404        | character:9999  | GET       | ERROR  | RyM\rc_character_404 |
+      | RyM/rq_character | 404        | character:9999  | GET       | ERROR  | RyM/rs_character_404 |
